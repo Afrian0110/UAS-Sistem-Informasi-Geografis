@@ -43,14 +43,27 @@ Contoh file: [`flood_prediction_jateng.csv`](./flood_prediction_jateng.csv)
 ```bash
 streamlit run app.py
 
-## Tampilan Dashboard
-## Tampilan awal
-![Screenshot 2025-06-07 212127](https://github.com/user-attachments/assets/5b64c136-783f-4706-834c-05ee92aef2f0)
+## 🖥️ Tampilan Dashboard
 
-##Tampilan menampilkan daerah rawan banjir dan tidak rawan banjir 
-![Screenshot 2025-06-07 212247](https://github.com/user-attachments/assets/d12132f1-71f4-44ae-8d8f-14c3d31cf326)
-![Screenshot 2025-06-07 212233](https://github.com/user-attachments/assets/5140e4de-9148-46eb-b233-46f2065b6193)
-![Screenshot 2025-06-07 212211](https://github.com/user-attachments/assets/261c8e3d-d79f-4b96-b282-002d050192a3)
+### 📌 Tampilan Awal
+Menampilkan dashboard dengan pilihan data, statistik, dan peta interaktif.
+
+![Tampilan Awal](https://github.com/user-attachments/assets/5b64c136-783f-4706-834c-05ee92aef2f0)
+
+---
+
+### 🌧️ Tampilan Menampilkan Daerah Rawan dan Tidak Rawan Banjir
+Model memprediksi berdasarkan data historis dan spasial, kemudian memvisualisasikan hasilnya ke dalam peta interaktif berwarna:
+
+- 🔴 **Merah** → Daerah Rawan Banjir  
+- 🟢 **Hijau** → Daerah Tidak Rawan
+
+![Prediksi Rawan Banjir 1](https://github.com/user-attachments/assets/d12132f1-71f4-44ae-8d8f-14c3d31cf326)
+
+![Prediksi Rawan Banjir 2](https://github.com/user-attachments/assets/5140e4de-9148-46eb-b233-46f2065b6193)
+
+![Prediksi Rawan Banjir 3](https://github.com/user-attachments/assets/261c8e3d-d79f-4b96-b282-002d050192a3)
+
 
 
 
