@@ -23,7 +23,7 @@ Data dummy yang digunakan mensimulasikan kondisi geografis suatu wilayah di **Ja
 - `slope`: Kemiringan lereng (°)
 - `elevation`: Ketinggian dari permukaan laut (meter)
 - `land_use`: Tipe penggunaan lahan (0 = Hutan, 1 = Permukiman, 2 = Lahan Terbuka)
-- `flood_risk`: Label risiko banjir (1 = Rawan, 0 = Tidak Rawan)
+- `flood_risk`: Label risiko banjir (1 = Rawan, 0 = Tidak Rawan) // ini akan di hasilkan oleh prediksi model nya
 
 Contoh file: [`flood_prediction_jateng.csv`](./flood_prediction_jateng.csv)
 
